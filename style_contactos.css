@@ -1,0 +1,159 @@
+body {
+    background-image: url(fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.contenedor {
+    width: 96.5%;
+    max-width: 90%;
+    margin: 20px 122px;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, auto);
+}
+
+.contenedor>div,
+.contenedor .titulo,
+.contenedor .sidebar,
+.contenedor .pie {
+    background-color: white;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+.contenedor .titulo {
+    background-color: #12203E;
+    color: white;
+    grid-column: 1 / 2;
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 15px;
+}
+
+.contenedor .links {
+    background-color: black;
+    color: white;
+    grid-column: 1 / 2;
+    text-align: center;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.contenedor .links a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.contenedor .links a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    background-color: black;
+}
+
+nav ul li {
+    display: inline-block;
+    position: relative;
+
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+nav ul li a:hover,
+nav ul li:hover>a {
+    background-color: #12203E;
+}
+
+nav ul li .dropdown-content {
+    display: none;
+    position: absolute;
+    background: #333;
+    min-width: 160px;
+    z-index: 1;
+}
+
+nav ul li .dropdown-content li {
+    display: block;
+}
+
+nav ul li .dropdown-content li a {
+    padding: 10px 20px;
+}
+
+nav ul li:hover .dropdown-content {
+    display: block;
+}
+
+.contenedor .sidebar {
+    grid-column: 1 / 2;
+    background-color: #FAA43D;
+    grid-row: 3 / 4;
+}
+
+.contenedor .sidebar h2 {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    text-align: center;
+}
+
+.contenedor .sidebar p {
+    text-align: justify;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.contenedor .pie {
+    background-color: #12203E;
+    color: white;
+    grid-column: 1 / 2;
+    text-align: center;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: weight;
+    font-style: normal;
+    grid-row: 4 / 4;
+}
+
+.links-img {
+    width: 25px;
+    height: 25px;
+    padding: 0;
+    margin: 0;
+}

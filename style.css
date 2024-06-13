@@ -1,0 +1,244 @@
+h1 {
+    animation: mover 3s 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes mover {
+    from {
+        transform: translateX(-300px);
+    }
+
+    to {
+        transform: translatex(0px);
+    }
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+}
+
+header {
+    background-color: gainsboro;
+    color: black;
+    padding: 1em 0;
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.imgheader {
+    width: 3%;
+}
+
+/* header {
+    padding: 15px;
+    background-color: gainsboro;
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    overflow-x: hidden;
+    margin: 0;
+} */
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    background-color: black;
+}
+
+nav ul li {
+    display: inline-block;
+    position: relative;
+
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+nav ul li a:hover,
+nav ul li:hover>a {
+    background-color: #12203E;
+}
+
+nav ul li .dropdown-content {
+    display: none;
+    position: absolute;
+    background: #333;
+    min-width: 160px;
+    z-index: 1;
+}
+
+nav ul li .dropdown-content li {
+    display: block;
+}
+
+nav ul li .dropdown-content li a {
+    padding: 10px 20px;
+}
+
+nav ul li:hover .dropdown-content {
+    display: block;
+}
+
+/* nav {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    justify-content: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+a:hover {
+    background-color: #12203E;
+    border-radius: 5px;
+    margin: 0;
+} */
+
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+aside {
+    flex: 30px;
+    margin: 10px;
+    padding: 10px;
+    background-color: gainsboro;
+}
+
+aside h2 {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+aside p {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.contenedor_img {
+    display: flex;
+}
+
+
+
+.contenedor_img1 {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 10px;
+}
+
+.acoso1 {
+    width: 225px;
+    height: 175px;
+
+}
+
+.acoso2 {
+    width: 225px;
+    height: 175px;
+
+}
+
+.acoso3 {
+    width: 225px;
+    height: 175px;
+}
+
+img {
+    padding: 10px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+main {
+    display: flex;
+    flex: 1;
+}
+
+section {
+    color: white;
+    background-color: black;
+    margin: 10px;
+    padding: 10px;
+    flex: 70%;
+}
+
+.section1 {
+    padding: 10px;
+}
+
+.section1 h2 {
+    text-align: center;
+}
+
+.contenedor_video {
+    padding: 1%;
+    margin: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+video {
+    width: 500px;
+    height: 350px;
+}
+
+.section2 h2 {
+    text-align: center;
+    padding: 15px;
+}
+
+ul {
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+    color: white;
+
+}
+
+.links {
+    width: 2%;
+    padding: 0;
+    margin: 0;
+}
